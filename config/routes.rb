@@ -1,4 +1,21 @@
 Ilie::Application.routes.draw do
+  
+  root :to => 'StaticPages#home'
+  
+  get "static_pages/home"
+
+  get "static_pages/about"
+
+  get "static_pages/resources"
+
+  get "static_pages/contact"
+
+  get "static_pages/schedule"
+
+  get "static_pages/program"
+
+  get "static_pages/teachers"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -48,7 +65,7 @@ Ilie::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => 'welcome#index'
+
 
   # See how all your routes lay out with "rake routes"
 
