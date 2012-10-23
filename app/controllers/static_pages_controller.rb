@@ -19,4 +19,11 @@ class StaticPagesController < ApplicationController
 
   def teachers
   end
+  
+  def studyinfo
+  end
+  
+  def topuniv
+  end
+  
 end

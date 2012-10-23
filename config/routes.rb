@@ -1,20 +1,22 @@
 Ilie::Application.routes.draw do
   
-  root :to => 'StaticPages#home'
+  root to: 'static_pages#home'
   
-  get "static_pages/home"
+ match '/about', to: 'static_pages#about'
 
-  get "static_pages/about"
+ match '/resources', to: 'static_pages#resources'
 
-  get "static_pages/resources"
+match '/contact', to: 'static_pages#contact'
 
-  get "static_pages/contact"
+match '/topuniv', to: 'static_pages#topuniv'
 
-  get "static_pages/schedule"
+match '/schedule', to: 'static_pages#schedule'
 
-  get "static_pages/program"
+match '/teachers', to: 'static_pages#teachers'
 
-  get "static_pages/teachers"
+match '/studyinfo', to: 'static_pages#studyinfo'
+
+match '/employment', to: 'static_pages#employment'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
