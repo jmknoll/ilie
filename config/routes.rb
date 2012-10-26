@@ -18,6 +18,8 @@ match '/studyinfo', to: 'static_pages#studyinfo'
 
 match '/employment', to: 'static_pages#employment'
 
+match '/faq', to: 'static_pages#faq'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
