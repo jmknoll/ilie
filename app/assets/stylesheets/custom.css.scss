@@ -28,7 +28,7 @@ textarea {
 
 .navbar {
 	margin-top: -50px;
-	padding: 0;
+	padding-bottom: 20px;
 	width: auto;
 	position: relative;
 	top: 0;
@@ -43,7 +43,7 @@ textarea {
 }
 
 .navbar a:hover {
-	color: white;
+	color: #0262CC;
 } 
 
 .container-fluid {
@@ -52,9 +52,33 @@ textarea {
 	top: 0;
 }
 
+.hero-unit {
+	background-image:url('../bg_image_lake.jpg');
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+#nav_left {
+	float: left;
+}
+
 #nav_right {
+	float: right;
 	margin-top: 20px;
+	color: #020202;
+	text-decoration: none;
+}
+
+#nav_right ul {
+	list-style-type: none;
+}
+
+#nav_right li {
+	display: block;
+	float: right
 }
 
 #logo {
+	width: 200px;
 }
