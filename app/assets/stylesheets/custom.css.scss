@@ -1,12 +1,10 @@
 @import "bootstrap";
 
+/* basics */
+
 html {
   overflow-y: scroll;
   min-height: 100%;
-}
-
-body {
-  padding-top: 60px;
 }
 
 section {
@@ -18,50 +16,48 @@ textarea {
 }
 
 
-.center {
-  text-align: center;
-}
+/* typography */
 
 .center h1 {
   margin-bottom: 10px;
 }
 
-.navbar {
-	margin-top: -50px;
-	margin-bottom: 20px;
-	width: auto;
-	position: relative;
-	top: 0;
-}
-
-.navbar a {
-	font-size: 18px;
-	padding-left: 15px;
-	padding-right: 15px;
-	color: black;
-	text-decoration: none;
-}
-
-.navbar a:hover {
-	color: #0262CC;
+h2 {
+	text-align: center;
 } 
 
-.container-fluid {
-	margin: 0;
-	padding: 0;
-	top: 0;
-}
-
-.hero-unit {
-	background-image:url('../home_bg_zh.jpg');
-	background-repeat:no-repeat;
-	background-position: center;
-	background-size: 100%;
-	min-height: 100px;
-}
-
-.span4 h2 {
+h3 {
 	text-align: center;
+}
+
+/* header */
+
+#logo {
+	max-width: 180px;
+	height: auto;
+}
+
+.headbutton {
+	background-color:#79bbff;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:21px;
+	font-weight:normal;
+	padding: 15px 7px;
+	text-decoration:none;
+}
+
+.headbutton:hover {
+	background-color:#68d9f0;
+}
+
+.headbutton:active {
+	position:relative;
+	top:1px;
 }
 
 #nav_left {
@@ -85,7 +81,67 @@ textarea {
 	float: right
 }
 
-#logo {
-	max-width: 180px;
-	height: auto;
+.navbar {
+	margin-top: -40px;
+	width: auto;
+	position: relative;
+	top: 0;
 }
+
+.navbar a {
+	font-size: 18px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: black;
+	text-decoration: none;
+}
+
+.navbar a:hover {
+	color: #0262CC;
+} 
+
+/* body */
+
+body {
+  padding-top: 60px;
+}
+
+.container-fluid {
+	margin: 0;
+	padding: 0;
+	top: 0;
+}
+
+.hero-unit {
+	background-image:url('../home_bg_zh_2.jpg');
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size: 100%;
+	min-height: 100px;
+}
+
+.center {
+  text-align: center;
+}
+
+.program_button {
+	display: table;
+	margin: 0 auto;
+}
+
+body {
+	color: #111;
+	background-color: #15A1EB;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#15A1EB), to(#fff));
+	d-repeat:repeat-x;
+	background-size: 100%;
+	-o-background-size: 100%;
+	-moz-background-size: 100%;
+	-webkit-background-size: 100%;
+}
+
+hr {
+	color: #020202;
+}
+
+/* footer */

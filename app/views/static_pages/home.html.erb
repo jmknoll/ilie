@@ -1,40 +1,37 @@
-<div class="container">
-
-      <div id="front_center" class="hero-unit">
-       <!-- <h1>Ivy League SAT Prep</h1>
-        <p>Prepare with the best! Proven score increases of 300 points!</p>
-        <p><a href="#myModal" role="button" class="btn btn-primary btn-large">Get Started Now!</a></p> -->
-      </div>
-	  
-	  <div class="row">
+﻿<div class="container">
+	<div id="front_center" class="hero-unit">
+	</div>
+	
+	<div class="row">
 		<div class="span12">
-		<hr>
-		<h2 style="text-align:center">QwestPrep International Test Preparation offers high-quality, award-winning test prep to demanding clients worldwide.</h2></p>
-		<hr>
-		<h3 style="text-align:center">Please choose your test below to get started.</h3></p>
+			<hr>
+			</p><h2>美国本土专业教师团队为中国学生提供最真实、最实用的SAT、TOEFL、SSAT考前培训</h2></p>
+			<hr>
+			<h2>选择您的考试</h2></p>
 		</div>
 	</div>
 	  
 
-      <div class="row">
-        <div class="span4">
-          <h2>SAT</h2>
-          <p>Interested in attending University in the United States? Click here for more information on our award-winning SAT preparation courses!</p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
+	<div class="row">
+		<div class="span4">
+			<%= link_to image_tag('/logo_sat.jpg'), schedule_path, :class => "program_button", :id => "program_button_sat" %>
+			<p>
+				<h3>SAT 学术能力评估考试</h3>
+			</p>
         </div>
         
 		<div class="span4">
-          <h2>TOEFL</h2>
-          <p>The Test of English as a Foreign Language (TOELF) is the first step towards international education or employment. Get started today!</p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
-       </div>
+			<%= link_to image_tag('/logo_ssat.jpg'), schedule_path, :class => "program_button", :id => "program_button_toefl" %>
+			<p>
+				<h3>SSAT 美国中学入学考试</h3>
+			</p>
+        </div>
        
-	   <div class="span4">
-          <h2>SSAT</h2>
-          <p>Attending high school abroad is increasingly seen as a sure-fire way to attend a top American uninversity. Get started on the right path with out SSAT preparation courses.</p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
-       </div>
-      </div>
-
+		<div class="span4">
+			<%= link_to image_tag('/logo_toefl.jpg'), schedule_path, :class => "program_button", :id => "program_button_s_sat" %>
+			<p>
+				<h3>TOEFL 托福</h3>
+			</p>
+		</div>
     </div>
-</body>
+</div>
