@@ -13,17 +13,8 @@ class StaticPagesController < ApplicationController
 
   def schedule
   end
-
-  def program
-  end
-
-  def teachers
-  end
   
-  def studyinfo
-  end
-  
-  def topuniv
+  def location
   end
   
 end

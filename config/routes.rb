@@ -3,22 +3,30 @@ Ilie::Application.routes.draw do
   root to: 'static_pages#home'
   
  match '/about', to: 'static_pages#about'
-
- match '/resources', to: 'static_pages#resources'
+ 
+ match '/program', to: 'static_pages#program'
 
 match '/contact', to: 'static_pages#contact'
 
-match '/topuniv', to: 'static_pages#topuniv'
-
 match '/schedule', to: 'static_pages#schedule'
-
-match '/teachers', to: 'static_pages#teachers'
-
-match '/studyinfo', to: 'static_pages#studyinfo'
 
 match '/employment', to: 'static_pages#employment'
 
-match '/faq', to: 'static_pages#faq'
+match '/location', to: 'static_pages#location'
+
+match '/news', to: 'news_pages#news'
+
+match '/studyinfo', to: 'news_pages#studyinfo'
+
+match '/faq', to: 'news_pages#faq'
+
+match '/news', to: 'news_pages#news'
+
+match '/topuniv', to: 'news_pages#topuniv'
+
+match '/resources', to: 'news_pages#resources'
+ 
+match '/teachers', to: 'news_pages#teachers'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
