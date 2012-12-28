@@ -17,4 +17,16 @@ class StaticPagesController < ApplicationController
   def location
   end
   
+  def program_sat
+  end
+  
+  def program_ssat
+  end
+  
+  def program_toefl
+  end
+  
+  def program_consulting
+  end
+  
 end

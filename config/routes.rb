@@ -4,7 +4,13 @@ Ilie::Application.routes.draw do
   
  match '/about', to: 'static_pages#about'
  
- match '/program', to: 'static_pages#program'
+ match '/program/sat', to: 'static_pages#program_sat'
+ 
+ match '/program/ssat', to: 'static_pages#program_ssat'
+ 
+ match '/program/toefl', to: 'static_pages#program_toefl'
+ 
+ match '/program/consulting', to: 'static_pages#program_consulting'
  
 match '/contact', to: 'static_pages#contact'
 

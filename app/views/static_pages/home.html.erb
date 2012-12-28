@@ -7,28 +7,28 @@
 			<hr>
 			</p><h2 class="center">美国本土专业教师团队为中国学生提供最真实、最实用的SAT、TOEFL、SSAT考前培训</h2></p>
 			<hr>
-			<h2 class="center">选择您的考试</h2></p>
+			<h2 class="center">选择您的考试</h2></p
 		</div>
 	</div>
 	  
 
 	<div class="row">
 		<div class="span4">
-			<%= link_to image_tag('/logo_sat.jpg'), program_path(:anchor => 'sat'), :class => "program_button", :id => "program_button_sat" %>
+			<%= link_to image_tag('/logo_sat.jpg'), program_sat_path, :class => "program_button", :id => "program_button_sat" %>
 			<p>
 				<h3 class="center">SAT 学术能力评估考试</h3>
 			</p>
         </div>
        
 		<div class="span4">
-			<%= link_to image_tag('/logo_toefl.jpg'), program_path(:anchor => 'toefl'), :class => "program_button", :id => "program_button_s_sat" %>
+			<%= link_to image_tag('/logo_toefl.jpg'), program_toefl_path, :class => "program_button", :id => "program_button_s_sat" %>
 			<p>
 				<h3 class="center">TOEFL 托福</h3>
 			</p>
 		</div>
 		
 		<div class="span4">
-			<%= link_to image_tag('/logo_ssat.jpg'), program_path(:anchor => 'ssat'), :class => "program_button", :id => "program_button_toefl" %>
+			<%= link_to image_tag('/logo_ssat.jpg'), program_ssat_path, :class => "program_button", :id => "program_button_toefl" %>
 			<p>
 				<h3 class="center">SSAT 美国中学入学考试</h3>
 			</p>
